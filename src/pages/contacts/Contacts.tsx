@@ -9,18 +9,18 @@ export function Contacs() {
 				<ul className={style.contentList}>
 					<li className={style.contentList__item}>
 						<h2 className={style.title_2}>Location</h2>
-						<p>Moscow, Russia</p>
+						<p>Kazakhstan, Ust-Kamenogorsk</p>
 					</li>
 					<li className={style.contentList__item}>
-						<h2 className={style.title_2}>Telegram / WhatsApp</h2>
+						<h2 className={style.title_2}>Telegram</h2>
 						<p>
-							<a href="tel:+79051234567">+7 (905) 123-45-67</a>
+							<a href="https://t.me/FallenArh">@FallenArh</a>
 						</p>
 					</li>
 					<li className={style.contentList__item}>
 						<h2 className={style.title_2}>Email</h2>
 						<p>
-							<a href="mailto:webdev@protonmail.com">webdev@protonmail.com</a>
+							<a href="mailto:vadimlitau@yandex.kz">vadimlitau@yandex.kz</a>
 						</p>
 					</li>
 				</ul>
