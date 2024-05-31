@@ -18,20 +18,24 @@
 
 html,
 body {
-	// min-height: 100vh;
-
 	font-family: "DM Sans", sans-serif;
 	letter-spacing: -0.5px;
 
-	/* Light mode */
 	background-color: $page-bg;
+	/* Light mode */
 	color: $text-color;
-}
-
-.App {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+}
+
+#root {
+	min-height: 100vh;
+}
+.App {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .btn {

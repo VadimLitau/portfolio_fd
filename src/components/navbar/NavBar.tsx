@@ -11,7 +11,7 @@ export function NavBar() {
 			<div className={style.container}>
 				<div className={style.nav_row}>
 					<NavLink to="./" className={style.logo}>
-						<strong>Freelancer</strong> portfolio
+						<strong>Portfolio</strong>
 					</NavLink>
 					<BtnDarkMode />
 					<ul className={style.nav_list}>
