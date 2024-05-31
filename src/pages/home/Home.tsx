@@ -11,12 +11,12 @@ export function Home() {
 							<h2 className={style.title_2}>Frontend</h2>
 							<p>
 								JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, SASS, NPM,
-								Jest, Cypress, Express, WebPack
+								Jest, Cypress, WebPack
 							</p>
 						</li>
 						<li className={style.contentList__item}>
 							<h2 className={style.title_2}>Backend</h2>
-							<p>NodeJS, MySQL, MongoDB, PHP, Laravel</p>
+							<p>Express, MongoDB, NestJS, Postgres</p>
 						</li>
 					</ul>
 				</div>
