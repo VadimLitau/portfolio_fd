@@ -12,13 +12,19 @@
 	color: $black;
 
 	transition: opacity 0.2s ease-in;
-}
 
-.btnOutline:hover {
-	opacity: 0.8;
-}
+	margin-bottom: 15px;
 
-.btnOutline:active {
-	position: relative;
-	top: 1px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&:hover {
+		opacity: 0.8;
+	}
+
+	&:active {
+		position: relative;
+		top: 1px;
+	}
 }

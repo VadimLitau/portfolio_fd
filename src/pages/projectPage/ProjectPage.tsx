@@ -20,7 +20,12 @@ export function ProjectPage() {
 							<div className={style.projectDetails__desc}>
 								<p>{project.skils}</p>
 							</div>
-							{project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
+							{project.gitHubLink && (
+								<BtnGitHub link={project.gitHubLink} btnText={"GitHub repo"} />
+							)}
+							{project.demoLink && (
+								<BtnGitHub demoLink={project.demoLink} btnText={"Open Demo"} />
+							)}
 						</>
 					)}
 				</div>
