@@ -10,8 +10,7 @@ export function Home() {
 						<li className={style.contentList__item}>
 							<h2 className={style.title_2}>Frontend</h2>
 							<p>
-								JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, SASS, NPM,
-								Jest, Cypress, WebPack
+								HTML, CSS, SASS, JavaScript, TypeScript, VueJs, ReactJS, Astro, Jest, Cypress
 							</p>
 						</li>
 						<li className={style.contentList__item}>

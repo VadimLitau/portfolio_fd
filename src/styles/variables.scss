@@ -1,25 +1,26 @@
 /* Colors */
 $blackpure: #000;
-$black: #171718;
+$black: #333;
 $black-border: #26292d;
-$white: #fff;
+$white: #eee9e9;
+$bg_white: #e1e1e1;
 $purple: #5c62ec;
 
 /* Nav */
 $nav-bg: $black;
 $nav-border: $black-border;
-$nav-text: $white;
+$nav-text: $bg_white;
 
 /* Header */
 $header-bg: $black;
-$header-text: $white;
+$header-text: $bg_white;
 
 /* Footer */
 $footer-bg: $black;
-$footer-text: $white;
+$footer-text: $bg_white;
 
 /* Light mode */
-$page-bg: $white;
+$page-bg: $bg_white;
 $text-color: $black;
 $accent: $purple;
 $title-1: $accent;

@@ -4,7 +4,7 @@ import { ProjectPage } from "../../pages/projectPage/ProjectPage";
 import { Routes, Route } from "react-router-dom";
 import { Contacs } from "../../pages/contacts/Contacts";
 import { Home } from "../../pages/home/Home";
-import { Projects } from "../../pages/projects/Projects";
+import { ProjectsPage } from "../../pages/projectsPage/ProjectsPage";
 import { Footer } from "../footer/Footer";
 
 import { NavBar } from "../navbar/NavBar";
@@ -17,7 +17,7 @@ function App() {
 			<ScrollToTop />
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/projects" element={<Projects />} />
+				<Route path="/projects" element={<ProjectsPage />} />
 				<Route path="/project/:id" element={<ProjectPage />} />
 				<Route path="/contacts" element={<Contacs />} />
 			</Routes>
