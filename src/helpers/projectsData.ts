@@ -23,7 +23,7 @@ export const petProjectsData = [
 		img_big: belaelaBig,
 		title: "Belalea",
 		gitHubLink: "https://github.com/VadimLitau/Belaela",
-		demoLink: "https://belaela-iw4b-vadimlitaus-projects.vercel.app/",
+		demoLink: "https://belaela.vercel.app/",
 		skils: "React, TS, SASS, Suztand, React Hook Form",
 		id: 1,
 	},
