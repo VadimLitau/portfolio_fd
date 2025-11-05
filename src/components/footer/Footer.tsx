@@ -26,12 +26,12 @@ export function Footer() {
 							</a>
 						</li> */}
 						<li className={style.social__item}>
-							<a href="#!">
+							<a href="https://github.com/VadimLitau" target="_blank">
 								<img src={gitHub} alt="Link" />
 							</a>
 						</li>
 						<li className={style.social__item}>
-							<a href="#!">
+							<a href="https://linkedin.com/in/vadim-litau-563a99279" target="_blank">
 								<img src={linkedIn} alt="Link" />
 							</a>
 						</li>

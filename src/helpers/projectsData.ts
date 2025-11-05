@@ -15,9 +15,20 @@ import rosseti from '../img/projects/rosseti.png';
 import rossetBig from '../img/projects/rosseti_big.png';
 import meikgu from '../img/projects/meikgu.png';
 import meikguBig from '../img/projects/meikgu_big.png';
+import octo from '../img/projects/octo.png';
+import octoBig from '../img/projects/octo_big.png';
 
 
 export const petProjectsData = [
+  {
+		img: octo,
+		img_big: octoBig,
+		title: "Octo",
+		gitHubLink: "https://github.com/VadimLitau/octo_test-task",
+		demoLink: "https://octo-test-task.vercel.app/",
+		skils: "VueJs, SASS, Swiper, Vite",
+		id: 1,
+	},
 	{
 		img: belaela,
 		img_big: belaelaBig,
@@ -25,7 +36,7 @@ export const petProjectsData = [
 		gitHubLink: "https://github.com/VadimLitau/Belaela",
 		demoLink: "https://belaela.vercel.app/",
 		skils: "React, TS, SASS, Suztand, React Hook Form",
-		id: 1,
+		id: 2,
 	},
 	{
 		img: tere,
@@ -34,7 +45,7 @@ export const petProjectsData = [
 		gitHubLink: "https://github.com/VadimLitau/Tere",
 		demoLink: "https://vadimlitau.github.io/Tere/",
 		skils: "html, sass, gulp",
-		id: 2,
+		id: 3,
 	},
 	{
 		img: toDo,
@@ -43,7 +54,7 @@ export const petProjectsData = [
 		gitHubLink: "https://github.com/VadimLitau/ToDo_TS",
 		demoLink: "https://to-do-ts-red.vercel.app/",
 		skils: "React, TS, SASS, Suztand",
-		id: 3,
+		id: 4,
 	},
 ];
 
